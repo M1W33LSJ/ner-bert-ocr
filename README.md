@@ -6,7 +6,7 @@ This project focuses on training a Named Entity Recognition (NER) model using BE
 
 - ✅ Fine-tunes a pre-trained Polish BERT model [`dkleczek/bert-base-polish-cased-v1`](https://huggingface.co/dkleczek/bert-base-polish-cased-v1)
 - ✅ Trained on the [KLEJ NKJP NER dataset](https://huggingface.co/datasets/allegro/klej-nkjp-ner)
-- ✅ Uses Hugging Face Transformers, Datasets, and `Trainer` API
+- ✅ Uses Hugging Face Transformers, Datasets
 - ✅ Token-label alignment for subword tokenization handled correctly
 - ⚙️ Modular design for easy future integration with OCR pipelines
 - 🔜 Future goal: Add custom labels for PESEL, NIP, postal codes, etc.
